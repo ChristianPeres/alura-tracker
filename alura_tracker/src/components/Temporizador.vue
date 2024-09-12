@@ -31,7 +31,7 @@ export default defineComponent({
       this.cronometroRodando = true
       this.cronometro = setInterval(() => {
         this.tempoEmSegundos += 1;
-      }, 100);
+      }, 1000);
     },
     finalizar() {
       this.cronometroRodando = false
